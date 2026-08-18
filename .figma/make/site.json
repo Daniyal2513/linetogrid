@@ -1,0 +1,10 @@
+{
+  "description": "Experience a fully immersive 3D agency website that showcases design services through dynamic visuals and seamless navigation, enhancing user engagement.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
