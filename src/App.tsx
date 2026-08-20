@@ -198,7 +198,7 @@ export default function App() {
 
       {/* ─── Nav ─── */}
       <nav style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100, padding: '0 3rem', height: '68px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: `rgba(13,13,13,${0.42 + navOpacity * 0.44})`, backdropFilter: 'blur(28px) saturate(180%)', WebkitBackdropFilter: 'blur(28px) saturate(180%)', borderBottom: `1px solid rgba(245,245,247,${0.04 + navOpacity * 0.07})`, transition: 'background 0.4s' }}>
-        <img src={logo} alt="" style={{ height: '28px', width: 'auto', display: 'block' }} />
+        <img src={logo} alt="" style={{ height: '28px', width: 'auto',  }} />
         <div className="hidden md:flex" style={{ gap: '2.5rem', alignItems: 'center' }}>
           {NAV_LINKS.map(l => (
             <a key={l} href={`#${l.toLowerCase().replace(' ', '-')}`} className="font-condensed"
