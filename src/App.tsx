@@ -291,11 +291,11 @@ export default function App() {
               <div>
                 <Reveal><div className="font-condensed" style={{ fontSize: '0.65rem', letterSpacing: '0.35em', color: 'rgba(13,13,13,0.35)', marginBottom: '1.8rem' }}>01 — ABOUT US</div></Reveal>
                 <Reveal delay={80}>
-                  <h2 className="font-condensed" style={{ fontSize: 'clamp(2rem,3.2vw,3.2rem)', fontWeight: 600, letterSpacing: '0.02em', lineHeight: 1.06, color: '#0D0D0D', margin: '0 0 1.8rem' }}>The Gestalt<br />Philosophy</h2>
+                  <h2 className="font-condensed" style={{ fontSize: 'clamp(2rem,3.2vw,3.2rem)', fontWeight: 600, letterSpacing: '0.02em', lineHeight: 1.06, color: '#0D0D0D', margin: '0 0 1.8rem' }}>The LINETOGRID<br />Philosophy</h2>
                 </Reveal>
                 <Reveal delay={160}>
                   <p style={{ fontSize: '0.92rem', fontWeight: 300, lineHeight: 1.82, color: 'rgba(13,13,13,0.65)', margin: '0 0 1.2rem' }}>
-                    Originating from the German word for "form" or "shape," Gestalt design arranges visual components so the human mind perceives a single, powerful whole rather than isolated fragments.
+                    Originating from the German word for "form" or "shape," LINETOGRID design arranges visual components so the human mind perceives a single, powerful whole rather than isolated fragments.
                   </p>
                   <p style={{ fontSize: '0.92rem', fontWeight: 300, lineHeight: 1.82, color: 'rgba(13,13,13,0.5)', margin: '0 0 2.6rem' }}>
                     We apply this principle to every project — proximity, closure, continuity, and visual unity working as one coherent system.
@@ -313,7 +313,7 @@ export default function App() {
                     <div key={idx} style={{ position: 'absolute', width: b.w, height: b.h, top: b.top, left: b.left, background: `rgba(13,13,13,${b.op * 0.22})`, border: `1px solid rgba(13,13,13,${b.op * 0.8})`, backdropFilter: 'blur(6px)', animation: `float${b.i} ${4 + idx * 0.3}s ease-in-out infinite`, animationDelay: b.d }} />
                   ))}
                   <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', width: '88px', height: '88px', background: 'rgba(13,13,13,0.06)', border: '1px solid rgba(13,13,13,0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(16px)' }}>
-                    <span className="font-condensed" style={{ fontSize: '1.9rem', fontWeight: 600, color: 'rgba(13,13,13,0.85)' }}>G</span>
+                    <span className="font-condensed" style={{ fontSize: '1.9rem', fontWeight: 600, color: 'rgba(13,13,13,0.85)' }}>L</span>
                   </div>
                 </div>
               </Reveal>
@@ -534,7 +534,7 @@ export default function App() {
                     onMouseLeave={e => (e.currentTarget.style.color = 'rgba(245,245,247,0.28)')}>{link}</a>
                 ))}
               </div>
-              <span style={{ fontSize: '0.65rem', fontWeight: 300, color: 'rgba(245,245,247,0.2)' }}>© 2025 GESTALT PRODUCTION. ALL RIGHTS RESERVED.</span>
+              <span style={{ fontSize: '0.65rem', fontWeight: 300, color: 'rgba(245,245,247,0.2)' }}>© 2025 LINETOGRID PRODUCTION. ALL RIGHTS RESERVED.</span>
             </div>
           </div>
         </section>
