@@ -243,7 +243,7 @@ export default function App() {
 
           <div style={{ position: 'relative', zIndex: 2, opacity: heroFade, transform: `translateY(${scrollY * 0.18}px)` }}>
             <div className="font-condensed" style={{ fontSize: '0.68rem', letterSpacing: '0.38em', color: 'rgba(245,245,247,0.35)', marginBottom: '2rem' }}>
-              GESTALT PRODUCTION — EST. 2013
+              LINETOGRID PRODUCTION — EST. 2013
             </div>
             <h1 className="font-condensed" style={{ fontSize: 'clamp(3.4rem, 7vw, 6.4rem)', fontWeight: 600, letterSpacing: '0.015em', lineHeight: 1.02, color: '#F5F5F7', margin: '0 0 1.8rem', maxWidth: '860px' }}>
               Organizing visual<br />elements into a unified,<br />high-impact whole.
@@ -461,7 +461,7 @@ export default function App() {
                       <div style={{ position: 'absolute', top: '28%', left: '34%', transform: 'translate(-50%,-50%)' }}>
                         <div style={{ width: '10px', height: '10px', background: '#F5F5F7', borderRadius: '50% 50% 50% 0', transform: 'rotate(-45deg)', boxShadow: '0 0 8px rgba(245,245,247,0.5)' }} />
                       </div>
-                      <span className="font-condensed" style={{ position: 'absolute', bottom: '0.5rem', right: '0.6rem', fontSize: '0.52rem', letterSpacing: '0.18em', color: 'rgba(245,245,247,0.25)' }}>GESTALT HQ</span>
+                      <span className="font-condensed" style={{ position: 'absolute', bottom: '0.5rem', right: '0.6rem', fontSize: '0.52rem', letterSpacing: '0.18em', color: 'rgba(245,245,247,0.25)' }}>LINETOGRID HQ</span>
                     </div>
                     <div style={{ fontSize: '0.84rem', fontWeight: 300, color: 'rgba(245,245,247,0.65)', lineHeight: 1.6 }}>
                       Studio 4B, The Collective Building<br />
