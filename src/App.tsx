@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Scene3D from './Scene3D'
+import logo from './assets/LINETO.png'
 
 /* ─── Data ───────────────────────────────────────────────────── */
 const NAV_LINKS = ['Home', 'About Us', 'Our Services', 'Portfolio', 'Contact Us']
@@ -197,7 +198,7 @@ export default function App() {
 
       {/* ─── Nav ─── */}
       <nav style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100, padding: '0 3rem', height: '68px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: `rgba(13,13,13,${0.42 + navOpacity * 0.44})`, backdropFilter: 'blur(28px) saturate(180%)', WebkitBackdropFilter: 'blur(28px) saturate(180%)', borderBottom: `1px solid rgba(245,245,247,${0.04 + navOpacity * 0.07})`, transition: 'background 0.4s' }}>
-        <img src="/assets/LINETO.png" alt="LineToGrid" style={{ height: '28px', width: 'auto', display: 'block' }} />
+        <img src={logo} alt="LineToGrid" style={{ height: '28px', width: 'auto', display: 'block' }} />
         <div className="hidden md:flex" style={{ gap: '2.5rem', alignItems: 'center' }}>
           {NAV_LINKS.map(l => (
             <a key={l} href={`#${l.toLowerCase().replace(' ', '-')}`} className="font-condensed"
@@ -522,7 +523,7 @@ export default function App() {
             <div style={{ borderTop: '1px solid rgba(245,245,247,0.08)', padding: '2.5rem 0 3rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1.2rem' }}>
               <div>
                 <div className="font-condensed" style={{ fontSize: '1rem', fontWeight: 600, letterSpacing: '0.28em', color: '#F5F5F7', marginBottom: '0.3rem' }}>
-                  <img src="/assets/LINETO.png" alt="LineToGrid" style={{ height: '28px', width: 'auto', display: 'block' }} />
+                  <img src={logo} alt="LineToGrid" style={{ height: '28px', width: 'auto', display: 'block' }} />
                 </div>
                 <div style={{ fontSize: '0.7rem', fontWeight: 300, color: 'rgba(245,245,247,0.25)' }}>Design & Production Studio — Berlin</div>
               </div>
