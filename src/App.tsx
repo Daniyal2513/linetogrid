@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Scene3D from './Scene3D'
-import logo from './assets/LINETO.png'
+import logo from './assets/LINETO BRAND LOGO.png'
 
 /* ─── Data ───────────────────────────────────────────────────── */
 const NAV_LINKS = ['Home', 'About Us', 'Our Services', 'Portfolio', 'Contact Us']
